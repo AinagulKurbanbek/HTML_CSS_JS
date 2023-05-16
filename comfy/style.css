@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body{
+    max-width: 100%;
+    color: #102a42;
+}
+
+.toggle-nav{
+    position: relative;
+    float: left;
+    opacity: 0;
+}
+.nav-bar{
+    padding: 45px 60px;
+    box-shadow: 2px 2px 2px rgb(221, 215, 215)
+}
+.nav-bar .content{
+    display: flex;
+    justify-content: space-between;
+}
+
+div .navbar-links ul {
+    float: left;
+    left: 90px;
+    
+}
+
+.navbar-links a{
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    color: black;
+    margin-right: 20px;
+    text-decoration: none; 
+    left: 70px;
+}
+
+.content .logo{
+    top: 20px;
+    right: 550px;  
+    position: absolute;
+}
+
+.content img{
+    color: #102a42;
+
+}
+
+.content .cart .korzina{
+    float: right;
+    right: 50px;
+    position: absolute;
+    border-color: transparent;
+    font-size: 1.6rem;
+    cursor: pointer;
+    background: transparent;
+}
+
+.korzina-count{
+    float: right;
+    right: 37px;
+    position: absolute;
+    top: 34px;
+    color: white;
+    border-radius: 50%;
+    background-color: chocolate;
+    width: 1.75rem;
+    height: 1.75rem;
+    display: grid;
+    place-items: center;
+}
+ 

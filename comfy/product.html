@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="product.css">
+</head>
+<body>
+    <nav class="nav-bar">
+        <div class="content">
+            <div class="navbar-links">
+                <button class="toggle-nav">
+                    <i class="fas fa-bars"></i>
+                  </button>
+                <ul>
+                    <a href="">Home</a>
+                    <a href="">Product</a>
+                    <a href="">About</a>
+                </ul>    
+            </div>
+            <img class="logo" src="./image/logo-white.svg"  alt="">
+            <div class="user">
+               <i class="fas fa-user"></i>
+            </div>
+            <div class="form">
+                <form action="form1" >
+                    <br><br>
+                    <input type="submit" class="stl1"value="Вход">
+                    <input type="submit"class="stl" value="Регистрация">
+                </form> <br>
+                 <form action="#" id="stl">
+                     <p>ВОЙТИ</p><br>
+                     <input type="text" class="yourname" placeholder="Введите ФИО" ><br>
+                     <span class="error"></span><br>
+                     <input type="email" class="mail" placeholder="E-mail" > <br>
+                     <span class="error1"></span><br>
+                     <input type="password" name="" class="pass" placeholder="Пароль"> <br>
+                     <span class="error2"></span><br>
+                     <input type="password" name="" class="pass2" placeholder="Подтвердите пароль"> <br>
+                     <span class="error3"></span><br>
+                     <button class="reg">Регистрация</button>
+                 </form>
+            </div>
+            <div class="cart">
+                <button class="korzina">
+                    <i class="fas fa-shopping-cart"></i>
+                </button>
+                <span class="korzina-count">0</span>
+            </div>
+            
+            <div class="card">
+                <h1>Корзина</h1>
+                <ul class="listCard"></ul>
+                <div class="checkOut">
+                    <div class="total">0</div>
+                    <div class="close">Закрыть</div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="navcontent">
+        <h3>Home / Product</h3>
+    </div>
+
+    <div class="catalog-content">
+        <div class="catalog">
+            <div class="input">
+                <input type="text" class="search-input" placeholder="Search..." id="mySearch" >
+                <!-- <span><button type="submit">Найти</button></span> -->
+            </div> <br>
+            <h4 class="first">Company</h4>
+            <ul class="companies">
+                <a href="#" class="company-btn" >All</a>
+                <!-- <a href="#" class="company-btn" >Caressa</a>
+                <a href="#" class="company-btn" >Liddy</a> -->
+            </ul>
+            <form>
+                <br><br><h4>Prise</h4>
+                <input type="range" class="prise" min="0" value="45" max="80">
+                <p>Value : 45$</p>
+            </form>
+        </div> 
+        <div class="product"></div>
+        <!-- <div class="list"></div> -->
+    </div>
+    <script src="product.js"></script>
+</body>
+</html>
